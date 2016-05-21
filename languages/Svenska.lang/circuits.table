@@ -1,0 +1,17 @@
+
+circuit_led = LED
+circuit_7_segment = 7-Segmentsdisplay
+
+circuit_button = Knapp
+circuit_clock = Klocka
+circuit_gnd = Gnd
+circuit_vdd = Vdd
+
+circuit_flip_flop = Vippa
+
+circuit_module_in = Modulingång
+circuit_module_clock = Modulklockingång
+circuit_module_out = Modulutgång
+
+circuit_text_label = Etikett
+circuit_text_label_default_text = Ny etikett

@@ -1,0 +1,4 @@
+java_locale_language = as
+java_locale_country  = DF
+
+invalid_locale_data  = Locale-informationen specifierad i Textpaketet f�r det h�r spr�ket �r felaktig

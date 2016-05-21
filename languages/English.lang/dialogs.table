@@ -1,0 +1,130 @@
+
+// Miscellaneous option pane messages
+error_message_could_not_find_file = Couldn't find the specified file
+error_message_only_host_can_make_new_circuit = Only the host may create a new, empty circuit.
+error_message_missing_clipboard_entry = Failed to paste components from the clipboard, you were disconnected to avoid desynchronization.
+
+warning_disconnected_timeout_message = Disconnected from server due to timeout.
+
+file_chooser_title_save = Save
+file_chooser_title_save_as = Save As
+file_chooser_title_open = Open
+file_chooser_title_upload_module = Upload
+
+
+// Server closing messages
+server_closing_message = Server closing...
+
+
+// Simulation dialogs
+simulation_failed_infinite_loop_title = Simulation failed
+simulation_failed_infinite_loop_message = The circuit contains an infinite loop! The simulation has been aborted.
+
+
+// Port in use dialog
+port_in_use_title = Server hosting - Port in use
+port_in_use_message = The default port is in use by another program, using {0} instead!
+
+
+// Host unreachable dialog
+host_unreachable_title = Unreachable host
+host_unreachable_message = Failed to connect to the target computer, creating a local server
+
+
+// Local connection failed dialog
+local_connection_failed_title = Connection failed
+local_connection_failed_message = Failed to connect to the local server, terminating program!
+
+
+// Circuit save dialogs
+save_error_host_must_choose_save_file = Failed to save, the host must specify a save file first
+save_user_wants_to_save_title = Save request
+save_user_wants_to_save_message = A user wants you to save the circuit
+save_failed = Failed to save
+
+
+// Circuit load dialogs
+load_only_host_may_load = Only the host may load circuits.
+load_failed = Failed to load
+
+
+// Circuit transfer dialogs
+transfer_circuit_failed_transfer_title = Transfer error
+transfer_circuit_failed_transfer_message = Failed to transfer circuit, you were disconnected
+transfer_circuit_missing_circuit_types_title = Load error
+transfer_circuit_missing_circuit_types_message = You are missing the circuit types required to load the circuit used by the server, you were disconnected
+
+
+// Module transfer dialogs
+transfer_module_failed_to_save_locally = Failed to prepare the module for transfer
+transfer_module_overwrite_title = Overwrite module
+transfer_module_overwrite_message = The module '{0}' is about to be replaced by an upload, proceed?
+transfer_module_denied_title = Module overwrite denied
+transfer_module_denied_message = The host doesn't want an existing module to be overwritten
+transfer_module_failed_to_save = Failed to save the module after transfering it to the server
+
+
+// Password dialog
+password_title = Password required
+password_enter_password = Enter server password
+password_join = Join
+password_skip_password = Skip password
+password_incorrect_title = Wrong password
+password_incorrect_message = You specified an incorrect password, you were disconnected
+
+
+// Preferences dialog
+preferences_title = Preferences
+preferences_general = General
+preferences_network = Network
+
+preferences_language = Language
+preferences_gate_design = Gate Design
+preferences_number_of_backups = Number of backups
+preferences_number_of_backups_tooltip = The number of backups to keep of the circuit files. The specified amount\n determines how many older versions of each circuit will be kept when saving.
+
+preferences_username = Username
+preferences_server_port = Server port
+preferences_use_password = Use password protection
+preferences_protection_level = Protection level
+preferences_protection_level_tooltip = The level of access granted to people with no password
+preferences_password = Password
+
+preferences_errors_must_be_fixed = The following errors must be fixed before the settings can be saved
+preferences_must_restart_to_apply = The program must restart to apply some of the settings you changed
+preferences_username_must_have_characters = The user name must contain letters or numbers
+preferences_password_must_have_characters = The server password must be at least one character long
+preferences_invalid_host_port = The host port must be a number between 1025 and 65535
+preferences_invalid_number_of_backups = The number of backups to keep must be a number between 0 and 10
+
+
+// Module dialog
+modules_upload_request_title = Upload
+modules_upload_request_message = Sending upload request...
+modules_upload_request_denied_title = Request denied
+modules_upload_request_denied_message = The host doesn't accept your upload
+
+modules_upload_response_title = Pending upload
+modules_upload_response_message = {0} wants to upload the module '{1}' to your server, do you accept?
+
+modules_failed_to_create_title = Failed to create module
+modules_failed_to_create_message = Failed to create module, the reason is one of the following:\n- The circuit contains insufficiently connected wires or components\n- The circuit contains buttons/LEDs/displays/clocks\n- The circuit is missing either module inputs or outputs
+
+modules_title   = Create Module
+modules_inputs  = Inputs
+modules_outputs = Outputs
+modules_clocks  = Clocks
+
+modules_name = Name
+modules_description = Description
+modules_create_module = Create module
+
+
+// Connect dialog
+join_title = Connect
+
+join_connect = Connect
+join_ip = IP
+join_port = Port
+join_username = Username
+join_connect = Connect

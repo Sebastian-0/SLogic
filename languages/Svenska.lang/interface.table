@@ -1,0 +1,50 @@
+
+// Menu bar
+menubar_file       = Arkiv
+menubar_tool       = Verktyg
+menubar_view       = Visa
+menubar_network    = Nätverk
+menubar_modules    = Moduler
+menubar_simulation = Simulering
+menubar_settings   = Inställningar
+
+menubar_new     = Ny
+menubar_open    = Öppna
+menubar_save    = Spara
+menubar_save_as = Spara som
+menubar_quit    = Avsluta
+
+menubar_circuit_tool  = Kretsverktyget
+menubar_wire_tool     = Ledningsverktyget
+menubar_deletion_tool = Borttagningsverktyget
+menubar_copy_tool     = Kopieringsverktyget
+menubar_move_tool     = Flyttningsverktyget
+
+menubar_zoom_in  = Zooma in
+menubar_zoom_out = Zooma ut
+menubar_clocks   = Klockor
+
+menubar_disconnect = Koppla ifrån
+menubar_connect    = Anslut
+
+menubar_create_module = Skapa modul
+menubar_upload_module = Ladda upp modul
+
+menubar_simulate = Simulera
+
+menubar_preferences    = Inställningar
+menubar_draw_markers_menu = Markörer
+menubar_draw_unconnected_wire_marker = Visa markör för oansluten ledning
+menubar_draw_unused_pin_marker = Visa markör för oansluten komponent
+menubar_draw_grid_menu = Rutnät
+menubar_draw_dots      = Rita prickar
+menubar_draw_grid      = Rita rutnät
+menubar_no_grid        = Inget rutnät
+
+// Component tree
+tree_root = Komponenter
+tree_category_io = Insignaler/Utsignaler
+tree_category_gates = Grindar
+tree_category_registers = Register
+tree_category_modules = Moduler
+tree_category_other = Övriga

@@ -1,0 +1,15 @@
+
+// Automatic chat messages
+chat_user_joined    = joined...
+chat_user_left      = left...
+chat_server_closed  = - Disconnected from server -
+chat_connecting     = Connecting...
+chat_connected      = Connected!
+chat_left_server    = - Disconnected -
+chat_hosted_server  = - Hosting server -
+chat_loaded_circuit = Loaded circuit
+chat_saved_circuit  = Saved circuit
+chat_new_circuit    = Created New Cicuit
+
+// Other
+chat_send_button = Send

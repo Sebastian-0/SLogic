@@ -1,0 +1,89 @@
+
+// Locale-data to set application settings
+java_locale_language = en
+java_locale_country  = US
+
+invalid_locale_data  = The Locale data specified in this String Table is incorrect
+
+// Default button text
+button_ok     = Ok
+button_cancel = Cancel
+
+// Option pane text override
+optionpane_yes    = Yes
+optionpane_no     = No
+optionpane_cancel = Cancel
+optionpane_ok     = Ok
+
+// Color chooser text override
+colorchooser_swatches_name    = Swatches
+colorchooser_swatches_recent  = Recent
+colorchooser_hsv_name         = HSV
+colorchooser_hsv_hue          = Hue
+colorchooser_hsv_saturation   = Saturation
+colorchooser_hsv_value        = Value
+colorchooser_hsv_transparency = Transparency
+colorchooser_sample_text      = Sample text Sample text
+colorchooser_preview_text     = Preview
+
+// File chooser text override
+filechooser_look_in = Look In
+filechooser_up_folder_tooltip = Up One Level
+filechooser_home_folder_tooltip = Home
+filechooser_new_folder_tooltip = Create new folder
+filechooser_list_view_tooltip = List
+filechooser_detailed_view_tooltip = Details
+
+filechooser_file_name = File Name
+filechooser_files_of_type = Files of Type
+filechooser_cancel = Cancel
+filechooser_cancel_tooltip = Abort file chooser dialog
+filechooser_open_folder = Open
+filechooser_open_folder_tooltip = Open selected directory
+
+filechooser_file_name_header = Name
+filechooser_file_size_header = Size
+filechooser_file_type_header = Item type
+filechooser_date_modified_header = Date modified
+
+filechooser_view_item = View
+filechooser_refresh_item = Refresh
+filechooser_new_folder_item = New Folder
+filechooser_view_list_item = List
+filechooser_view_details_item = Details
+
+filechooser_accept_all_filter = All files
+
+filechooser_rename_error_title = Error Renaming File or Folder
+filechooser_rename_error_message = Cannot rename {0}
+
+filechooser_new_folder_error_message = Error creating new folder
+filechooser_new_folder_error_no_parent_title = Unable to create folder
+filechooser_new_folder_error_no_parent_message = Unable to create the folder.\n\nThe system cannot find the path specified.
+
+// Common pop up titles (for option panes)
+popup_title_error           = Error
+popup_title_are_you_sure    = Are you sure
+popup_title_warning         = Warning
+popup_title_incorrect_input = Incorrect input
+popup_title_must_restart    = Must restart
+popup_title_disconnected    = Disconnected
+
+
+// Settings
+gate_design_text = Text
+gate_design_us = US
+gate_design_iec = IEC
+
+protection_level_no_access = No Access
+protection_level_allow_read = Allow Read
+
+
+// File descriptions
+file_description_circuit = Circuit files
+file_description_module  = Module files
+
+// Program texts
+window_title            = Logic Sim
+window_simulation_title = Logic Sim - simulation
+version = Version

@@ -1,0 +1,50 @@
+
+// Menu bar
+menubar_file       = File
+menubar_tool       = Tools
+menubar_view       = View
+menubar_network    = Network
+menubar_modules    = Modules
+menubar_simulation = Simulation
+menubar_settings   = Settings
+
+menubar_new     = New 
+menubar_open    = Load
+menubar_save    = Save
+menubar_save_as = Save as
+menubar_quit    = Quit
+
+menubar_circuit_tool  = Circuit tool
+menubar_wire_tool     = Wire tool
+menubar_deletion_tool = Deletion tool
+menubar_copy_tool     = Copy tool
+menubar_move_tool     = Move tool
+
+menubar_zoom_in  = Zoom in
+menubar_zoom_out = Zoom out
+menubar_clocks   = Clocks
+
+menubar_disconnect = Disconnect
+menubar_connect    = Connect
+
+menubar_create_module = Create module
+menubar_upload_module = Upload module
+
+menubar_simulate = Simulate
+
+menubar_preferences    = Preferences
+menubar_draw_markers_menu = Markers
+menubar_draw_unconnected_wire_marker = Show unconnected wire marker
+menubar_draw_unused_pin_marker = Show unused pin marker
+menubar_draw_grid_menu = Grid
+menubar_draw_dots      = Draw dots
+menubar_draw_grid      = Draw grid
+menubar_no_grid        = No grid
+
+// Component tree
+tree_root = Circuits
+tree_category_io = Input/Output
+tree_category_gates = Gates
+tree_category_registers = Registers
+tree_category_modules = Modules
+tree_category_other = Other

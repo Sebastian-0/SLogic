@@ -1,0 +1,89 @@
+
+// Locale-data to set application settings
+java_locale_language = sv
+java_locale_country  = SE
+
+invalid_locale_data  = Locale-datan i den här texttabellen är felaktig
+
+// Default button text
+button_ok     = Ok
+button_cancel = Avbryt
+
+// Option pane text override
+optionpane_yes    = Ja
+optionpane_no     = Nej
+optionpane_cancel = Avbryt
+optionpane_ok     = Ok
+
+// Color chooser text override
+colorchooser_swatches_name    = Palett
+colorchooser_swatches_recent  = Senast använda
+colorchooser_hsv_name         = NMI
+colorchooser_hsv_hue          = Nyans
+colorchooser_hsv_saturation   = Mättnad
+colorchooser_hsv_value        = Intensitet
+colorchooser_hsv_transparency = Transparens
+colorchooser_sample_text      = Exempeltext Exempeltext
+colorchooser_preview_text     = Förhandsvisning
+
+// File chooser text override
+filechooser_look_in = Nuvarande mapp
+filechooser_up_folder_tooltip = Backa en mapp
+filechooser_home_folder_tooltip = Hem
+filechooser_new_folder_tooltip = Skapa ny mapp
+filechooser_list_view_tooltip = Lista
+filechooser_detailed_view_tooltip = Detaljerad lista
+
+filechooser_file_name = Filnamn
+filechooser_files_of_type = Filtyp
+filechooser_cancel = Avbryt
+filechooser_cancel_tooltip = Avbryter fildialogen
+filechooser_open_folder = Öppna
+filechooser_open_folder_tooltip = Öppna vald mapp
+
+filechooser_file_name_header = Namn
+filechooser_file_size_header = Storlek
+filechooser_file_type_header = Filtyp
+filechooser_date_modified_header = Senast modifierad
+
+filechooser_view_item = Visa
+filechooser_refresh_item = Uppdatera
+filechooser_new_folder_item = Ny mapp
+filechooser_view_list_item = Lista
+filechooser_view_details_item = Detaljerad lista
+
+filechooser_accept_all_filter = Alla filer
+
+filechooser_rename_error_title = Fel inträffade vid namnbyte
+filechooser_rename_error_message = Kan inte byta namn på {0}
+
+filechooser_new_folder_error_message = Fel inträffade när den nya mappen skulle skapas
+filechooser_new_folder_error_no_parent_title = Kunde inte skapa mappen
+filechooser_new_folder_error_no_parent_message = Kunde inte skapa mappen.\n\nSökvägen är ogiltig.
+
+// Common pop up titles (for option panes)
+popup_title_error           = Fel
+popup_title_are_you_sure    = Är du säker
+popup_title_warning         = Varning
+popup_title_incorrect_input = Felaktig indata
+popup_title_must_restart    = Omstart krävs
+popup_title_disconnected    = Bortkopplad
+
+
+// Settings
+gate_design_text = Text
+gate_design_us = US
+gate_design_iec = IEC
+
+protection_level_no_access = Inga behörigheter
+protection_level_allow_read = Tillåt läsning
+
+
+// File descriptions
+file_description_circuit = Kretsfiler
+file_description_module  = Modulfiler
+
+// Program texts
+window_title            = Logic Sim
+window_simulation_title = Logic Sim - simulering
+version = Version

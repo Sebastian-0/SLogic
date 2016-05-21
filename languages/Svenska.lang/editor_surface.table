@@ -1,0 +1,11 @@
+
+// Tools
+tool_copy = Kopieringsverktyget
+tool_move = Flyttningsverktyget
+tool_delete = Borttagningsverktyget
+tool_place_components = Komponentutplacering
+tool_place_wires = Ledningskoppling
+
+// GUI labels
+surface_read_only_mode = Inloggad i läsläge
+surface_zoom = Zoom

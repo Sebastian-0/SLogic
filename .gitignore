@@ -1,0 +1,50 @@
+*.class
+
+# Package Files #
+# *.jar
+*.war
+*.ear
+
+*.pydevproject
+.metadata
+.recommenders
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin 
+.target
+
+# TeXlipse plugin
+.texlipse
+
+# Windows stuff
+thumbs.db
+Thumbs.db
+
+# other
+.src
+libs/
+*.ini
+*.jar
+*.cir.bkp.*
+Paint.NET

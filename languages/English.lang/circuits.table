@@ -1,0 +1,17 @@
+
+circuit_led = LED
+circuit_7_segment = 7-Segment display
+
+circuit_button = Button
+circuit_clock = Clock
+circuit_gnd = Gnd
+circuit_vdd = Vdd
+
+circuit_flip_flop = Flip-flop
+
+circuit_module_in = Module Input
+circuit_module_clock = Module Clock Input
+circuit_module_out = Module Output
+
+circuit_text_label = Text label
+circuit_text_label_default_text = New label

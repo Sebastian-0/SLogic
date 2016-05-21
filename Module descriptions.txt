@@ -1,0 +1,96 @@
+
+
+BC-4:
+A binary 4-bit counter. Active when EN=1.
+LD=1 loads d0-d3 when CLK->1.
+LD=0 increases q0-q3 when CLK->1.
+CAO=1 when q0=q1=q2=q3=1
+
+
+HA:
+A half adder.
+s=a+b (mod 2)
+Cout=Carry out
+
+
+FA:
+A full adder.
+s=a+b+Cin (mod 2)
+Cout=Carry out
+
+
+FA-4:
+A 4-bit full adder.
+S=A+B+Cin
+Cout=Carry out
+
+
+Decoder:
+A 7-segment display decoder.
+Reads d0-d3 as a binary number and translates to
+7-segment display inputs.
+dp=dot
+
+
+Mux 2-1:
+A 2 to 1 bit multiplexer.
+z=i0 if s=0
+z=i1 if s=1
+
+
+Mux 4-1:
+A 4 to 1 bit multiplexer.
+z=i0 if s0=0, s1=0
+z=i1 if s0=1, s1=0
+z=i2 if s0=0, s1=1
+z=i3 if s0=1, s1=1
+
+
+Mux 8-1:
+A 8 to 1 bit multiplexer.
+z=i0 if s0=0, s1=0, s2=0
+z=i1 if s0=0, s1=0, s2=1
+z=i2 if s0=0, s1=1, s2=0
+  .....
+z=i7 if s0=1, s1=1, s2=1
+
+
+Mux 16-1:
+A 16 to 1 bit multiplexer.
+z=i0 if s0=0, s1=0, s2=0, s3=0
+z=i1 if s0=0, s1=0, s2=0, s3=1
+z=i2 if s0=0, s1=0, s2=1, s3=0
+  .....
+z=i15 if s0=1, s1=1, s2=1, s3=1
+
+
+Demux 1-2:
+A 1 to 2 bit demultiplexer.
+z0=i if s=0, otherwise z0=0
+z1=i if s=1, otherwise z1=0
+
+
+Demux 1-4:
+A 1 to 4 bit demultiplexer.
+z0=i if s0=0, s1=0, otherwise z0=0
+z1=i if s0=1, s1=0, otherwise z1=0
+z2=i if s0=0, s1=1, otherwise z2=0
+z3=i if s0=1, s1=1, otherwise z3=0
+
+
+Demux 1-8:
+A 1 to 8 bit demultiplexer.
+z0=i if s0=0, s1=0, s2=0, otherwise z0=0
+z1=i if s0=0, s1=0, s2=1, otherwise z1=0
+z2=i if s0=0, s1=1, s2=0, otherwise z2=0
+  .....
+z7=i if s0=1, s1=1, s2=1, otherwise z7=0
+
+
+Demux 1-16:
+A 1 to 16 bit demultiplexer.
+z0=i if s0=0, s1=0, s2=0, s3=0, otherwise z0=0
+z1=i if s0=0, s1=0, s2=0, s3=1, otherwise z1=0
+z2=i if s0=0, s1=0, s2=1, s3=0, otherwise z2=0
+  .....
+z15=i if s0=1, s1=1, s2=1, s3=1, otherwise z15=0

@@ -1,0 +1,11 @@
+
+// Tools
+tool_copy = Copy Tool
+tool_move = Move Tool
+tool_delete = Deletion Tool
+tool_place_components = Component Placement
+tool_place_wires = Wire Placement
+
+// GUI labels
+surface_read_only_mode = In Read-only mode
+surface_zoom = Zoom

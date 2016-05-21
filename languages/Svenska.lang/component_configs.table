@@ -1,0 +1,21 @@
+// Name config dialog
+config_dialog_name_message = Namnge komponenten
+
+// Text label config dialog
+config_dialog_text_label_message = Skriv den text etiketten ska visa
+
+// LED config dialog
+config_dialog_led_title = Välj LED-färger
+config_dialog_led_on_color = Färg vid påläge
+config_dialog_led_off_color = Färg vid avläge
+
+// Button config dialog
+config_dialog_button_title = Välj knappinställningar
+config_dialog_button_is_toggle = Är växlingsknapp
+
+// Clocks dialog
+config_dialog_clocks_title = Ändra klockinställningar
+
+config_dialog_clocks_initial_off_time = Ursprunglig av-tid
+config_dialog_clocks_off_time = Av-tid
+config_dialog_clocks_on_time = På-tid

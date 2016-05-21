@@ -1,0 +1,130 @@
+
+// Miscellaneous option pane messages
+error_message_could_not_find_file = Kunde inte hitta filen
+error_message_only_host_can_make_new_circuit = Endast serverns värd kan skapa en ny, tom krets.
+error_message_missing_clipboard_entry = Misslyckades med inklistring av komponenter, du kopplades bort för att undvika desynkronisering.
+
+warning_disconnected_timeout_message = Bortkopplad från servern på grund av timeout.
+
+file_chooser_title_save = Spara
+file_chooser_title_save_as = Spara som
+file_chooser_title_open = Öppna
+file_chooser_title_upload_module = Ladda upp
+
+
+// Server closing messages
+server_closing_message = Servern stängdes ned...
+
+
+// Simulation dialogs
+simulation_failed_infinite_loop_title = Simuleringen misslyckades
+simulation_failed_infinite_loop_message = Kretsen innehåller en evig loop! Simulationen avbröts.
+
+
+// Port in use dialog
+port_in_use_title = Serverstart - Porten används redan
+port_in_use_message = Standardporten används redan av ett annat program, använder {0} istället!
+
+
+// Host unreachable dialog
+host_unreachable_title = Värden är onådbar
+host_unreachable_message = Misslyckades med att ansluta till måldatorn, skapar lokal server
+
+
+// Local connection failed dialog
+local_connection_failed_title = Anslutningen misslyckades
+local_connection_failed_message = Misslyckades med att ansulta till den lokala servern, avslutar programmet!
+
+
+// Circuit save dialogs
+save_error_host_must_choose_save_file = Sparningen misslyckades, serverns värd måste välja en sparfil först
+save_user_wants_to_save_title = Sparningsförfrågan
+save_user_wants_to_save_message = En användare vill att du ska spara kretsen
+save_failed = Sparningen misslyckades
+
+
+// Circuit load dialogs
+load_only_host_may_load = Endast serverns värd kan ladda kretsar.
+load_failed = Laddningen misslyckades
+
+
+// Circuit transfer dialogs
+transfer_circuit_failed_transfer_title = Överföringsfel
+transfer_circuit_failed_transfer_message = Kretsöverföringen misslyckades, do kopplades bort
+transfer_circuit_missing_circuit_types_title = Laddningsfel
+transfer_circuit_missing_circuit_types_message = Du saknar de kretstyper som behövs för att kunna öppna serverns krets, du kopplades bort 
+
+
+// Module transfer dialogs
+transfer_module_failed_to_save_locally = Misslyckades med att förbereda modulen för överföring
+transfer_module_overwrite_title = Överskrivning av modul
+transfer_module_overwrite_message = Modulen '{0}' kommer eresättas av en uppladdning, vill du fortsätta?
+transfer_module_denied_title = Överskrivning av modul nekades
+transfer_module_denied_message = Serverns värd vill inte att en existerande modul ska skrivas över
+transfer_module_failed_to_save = Misslyckades med att spara modulen efter överföring till servern
+
+
+// Password dialog
+password_title = Ange lösenord
+password_enter_password = Ange serverns lösenord
+password_join = Logga in
+password_skip_password = Skippa lösenord
+password_incorrect_title = Felaktigt lösenord
+password_incorrect_message = Du angav ett felaktigt lösenord, du kopplades bort
+
+
+// Preferences dialog
+preferences_title = Inställningar
+preferences_general = Allmänt
+preferences_network = Nätverk
+
+preferences_language = Språk
+preferences_gate_design = Grindstandard
+preferences_number_of_backups = Antal backuper
+preferences_number_of_backups_tooltip = Antalet backuper av kretsfilerna som ska finnas. Den angivna mängden avgör hur\n många av de senast sparade versionerna av kretsen som ska finnas i backuper.
+
+preferences_username = Användarnamn
+preferences_server_port = Serverns port
+preferences_use_password = Använd lösenord
+preferences_protection_level = Skyddsnivå
+preferences_protection_level_tooltip = Anger vilka behörigheter användare utan lösenord får
+preferences_password = Lösenord
+
+preferences_errors_must_be_fixed = Följande fel måste fixas innan inställningarna kan sparas
+preferences_must_restart_to_apply = Programmet måste startas om för att applicera några av inställningarna du ändrade
+preferences_username_must_have_characters = Användarnamnet måste innehålla bokstäver eller siffror
+preferences_password_must_have_characters = Serverlösenordet måste vara minst ett tecken långt
+preferences_invalid_host_port = Serverporten måste vara ett nummer mellan 1025 och 65535
+preferences_invalid_number_of_backups = Antalet backuper måste vara en siffra mellan 0 och 10
+
+
+// Module dialog
+modules_upload_request_title = Ladda upp
+modules_upload_request_message = Skickar uppladdningsförfrågan...
+modules_upload_request_denied_title = Förfrågan nekad
+modules_upload_request_denied_message = Servervärden accepterar inte din uppladdning
+
+modules_upload_response_title = Väntande uppladdning
+modules_upload_response_message = {0} vill ladda upp modulen '{1}' till din server, accepterar du?
+
+modules_failed_to_create_title = Modulskapandet misslykades
+modules_failed_to_create_message = Det går inte att skapa en modul, orsaken är en av följande:\n- Kretsen innehåller otillräckligt anslutna ledningar eller komponenter\n- Kretsen innehåller knappar/displayer/klockor/LEDs\n- Kretsen saknar modulingångar eller modulutgångar
+
+modules_title   = Skapa modul
+modules_inputs  = Ingångar
+modules_outputs = Utgångar
+modules_clocks  = Klockingångar
+
+modules_name = Namn
+modules_description = Beskrivning
+modules_create_module = Skapa modul
+
+
+// Connect dialog
+join_title = Anslut
+
+join_connect = Anslut
+join_ip = IP
+join_port = Port
+join_username = Användarnamn
+join_connect = Anslut

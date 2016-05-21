@@ -1,0 +1,15 @@
+
+// Automatic chat messages
+chat_user_joined    = loggade in...
+chat_user_left      = loggade ut...
+chat_server_closed  = - Servern stängdes -
+chat_connecting     = Loggar in...
+chat_connected      = Inloggad!
+chat_left_server    = - Utloggad -
+chat_hosted_server  = - Startar server -
+chat_loaded_circuit = Kretsen laddades
+chat_saved_circuit  = Kretsen sparades
+chat_new_circuit    = Ny krets skapades
+
+// Other
+chat_send_button = Skicka

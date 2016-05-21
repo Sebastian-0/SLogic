@@ -1,0 +1,21 @@
+// Name config dialog
+config_dialog_name_message = Enter a new component name
+
+// Text label config dialog
+config_dialog_text_label_message = Enter the label text to display
+
+// LED config dialog
+config_dialog_led_title = Choose LED colors
+config_dialog_led_on_color = Color when on
+config_dialog_led_off_color = Color when off
+
+// Button config dialog
+config_dialog_button_title = Choose button settings
+config_dialog_button_is_toggle = Is toggle button
+
+// Clocks dialog
+config_dialog_clocks_title = Edit clock settings
+
+config_dialog_clocks_initial_off_time = Initial off time
+config_dialog_clocks_off_time = Off time
+config_dialog_clocks_on_time = On time
