@@ -6,7 +6,7 @@ The following is a list summarizing the main features of SLogic:
  * __Multi-user support:__ Work on circuits together with others!
  * __Modularize circuits:__ Split large circuits into smaller modules to make your circuit easier to work with.
  * __Customizable editor:__ The panels in the editor are resizable, it supports zooming and there are a lot of settings to play with (display language, grid options, etcetera...).
- * __Customizable components:__ Change color of LEDs, toggle buttons vs. push buttons, change clock delays, US vs. IEC grid standard, etcetera...
+ * __Customizable components:__ Change color of LEDs, toggle buttons vs. push buttons, change clock delays, US vs. IEC gate standard, etcetera...
  * __Moving and copying:__ There are tools to move and copy existing components however you please.
  
 ### Multi-user support
