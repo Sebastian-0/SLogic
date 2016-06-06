@@ -9,10 +9,12 @@
 
 package network;
 
+import snet.internal.ConnectionManagerInterface.DisconnectReason;
+
 public interface ClientListener
 {
   public void connectionFailed();
   
   public void connected();
-  public void disconnected(byte reason, String message);
+  public void disconnected(DisconnectReason reason);
 }

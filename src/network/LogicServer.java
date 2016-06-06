@@ -30,6 +30,7 @@ import network.hooks.UserJoinedHook;
 import network.hooks.UserLeftHook;
 import snet.Server;
 import snet.ServerLifecycleListener;
+import snet.internal.ConnectionManagerInterface.DisconnectReason;
 import snet.internal.Message;
 import sutilities.Debugger;
 import configuration.Config;
@@ -310,7 +311,7 @@ public class LogicServer
     }
     
     @Override
-    public void disconnected(String id, byte reason, String message)
+    public void disconnected(String id, DisconnectReason reason)
     {
       server.sendToAll(new UserLeftHook(null).createMessage(id));
       

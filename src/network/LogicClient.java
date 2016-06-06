@@ -14,6 +14,7 @@ import network.hooks.ClientGreetingHook;
 import network.hooks.SetUsernameHook;
 import snet.Client;
 import snet.ClientLifecycleListener;
+import snet.internal.ConnectionManagerInterface.DisconnectReason;
 
 public class LogicClient
 {
@@ -118,9 +119,9 @@ public class LogicClient
     }
 
     @Override
-    public void disconnected(byte reason, String message)
+    public void disconnected(DisconnectReason reason)
     {
-      clientListener.disconnected(reason, message);
+      clientListener.disconnected(reason);
     }
   };
 }

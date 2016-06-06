@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 import snet.NetworkHook;
-import snet.internal.ConnectionManagerInterface;
+import snet.internal.ConnectionManagerInterface.DisconnectReason;
 import sutilities.Debugger;
 import util.ReflectionUtils;
 import configuration.Config;
@@ -181,9 +181,9 @@ public class Session
     }
     
     @Override
-    public void disconnected(byte reason, String message)
+    public void disconnected(DisconnectReason reason)
     {
-      if (reason == ConnectionManagerInterface.REASON_TIMEOUT)
+      if (reason == DisconnectReason.Timeout)
       {
         EventQueue.invokeLater(new Runnable() {
           @Override
