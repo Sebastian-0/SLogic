@@ -60,6 +60,7 @@ public class LogicServer
   {
     server = new Server(serverLifecycleListener);
     server.setWaitForPoll(true);
+    server.setUseTcpNoDelay(true);
     
     workspace = new Workspace();
     

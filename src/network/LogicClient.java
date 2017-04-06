@@ -32,6 +32,7 @@ public class LogicClient
   public LogicClient(ClientListener listener)
   {
     client = new Client(connectionListener);
+    client.setUseTcpNoDelay(true);
     
     workspace = new Workspace();
     
