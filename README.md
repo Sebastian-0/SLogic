@@ -32,4 +32,4 @@ If you want to create a runnable jar-file, just include all the compiled class f
 To compile the program you will need [SNet](https://github.com/Sebastian-0/SNet) as well as my [Utilities library](https://github.com/Sebastian-0/Utilities).
 
 ## License
-This networking library is free to use as long as you comply to the GNU GPL v3 license (see LICENSE for details).
+This program is free to use as long as you comply to the GNU GPL v3 license (see LICENSE for details).
