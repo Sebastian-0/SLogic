@@ -23,6 +23,9 @@ In the module dialog which pops up when you create a module you can rename all t
 
 If you want to see examples of module circuits or if you just are interested you can take a look at the default modules whose source files are located in the folder circuits/modules (there are also tests to ensure their functionality in circuits/modules/tests).
 
+## Running
+To run, either extract the program from the 'Exported.zip' file or compile it yourself (see instructions below). Some circuit are included as examples in the exported version, however there are many more in the circuits folder.
+
 ## Compiling
 To compile the program you first need to download the source files for the libraries specified in the Dependencies section. When all the source files have been obtained there should be no problem compiling the program. Once it is compiled it can be run by launching the class LogicSim (in the gui-package).
 
