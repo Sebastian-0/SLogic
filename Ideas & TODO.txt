@@ -1,0 +1,33 @@
+
+Ordning på kretsar:   FIXAT
+-------------------
+F1 - Circuit
+F2 - Wire
+F3 - Move
+F4 - copy
+F5 - delete
+
+
+Kretsverktyget:   FIXAT
+---------------
+V-klicka på komponent ska få upp inställningar
+
+
+Simulering:   FIXAT
+-----------
+Eviga loopar: Räkna antalet ggr en viss krets har uppdaterats i en simulering, om det överskrider t.ex. 100 så kastas exception (innehållandes komponentens id). Simuleringen avbryts för alltid och ev. ritas komponenten som orsakade felet rött.
+
+Komponenter ska ge giltig utsignal om de får EN giltig insignal
+
+
+FIXA:
+-----
+ - auto-align för ledningar borde inte fungera så att ledningen hamnar i sig själv
+ * Inte placera ut komponent om det finns en annan på samma plats
+ * Debugtext ska ha en fix font
+ ? Mouse trackern ska aktiveras igen när man ej loggar in som gäst (eller när du hostar själv)
+
+ * moduler i bokstavsordning
+ * komponenternas collision boxes ska roteras
+
+ * om man skriver felaktiga tecken i modulnamn
