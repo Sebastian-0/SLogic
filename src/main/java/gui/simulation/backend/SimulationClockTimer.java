@@ -18,20 +18,15 @@ import java.util.Timer;
 public class SimulationClockTimer
 {
   private Timer timer;
-  
-  private List<SimulationClock> clocks;
-  
+
   public SimulationClockTimer(List<GraphicalComponent> clockComponents, SimulationClockListener listener)
   {
     timer = new Timer();
-    
-    clocks = new ArrayList<SimulationClock>();
     
     for (GraphicalComponent clockComponent : clockComponents)
     {
       SimulationClock clock = new SimulationClock(clockComponent, listener);
       clock.createTimerTask(timer);
-      clocks.add(clock);
     }
   }
   

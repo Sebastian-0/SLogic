@@ -25,9 +25,9 @@ public class ClipboardEntrySaver
   
   public void save(ClipboardEntry entry) throws IOException
   {
-    ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target));
-    out.writeObject(entry);
-    out.close();
+    try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target))) {
+      out.writeObject(entry);
+    }
   }
 }
 

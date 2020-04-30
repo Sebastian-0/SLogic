@@ -27,12 +27,8 @@ public class ModuleSaver
   
   public void save(Module module) throws IOException
   {
-    ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target));
-    try {
+    try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target))) {
       out.writeObject(module);
-    }
-    finally {
-      out.close();
     }
   }
 }

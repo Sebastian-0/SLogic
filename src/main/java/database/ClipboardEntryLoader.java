@@ -26,14 +26,11 @@ public class ClipboardEntryLoader
     target = targetPath;
   }
   
-  
-  public ClipboardEntry load(Collection<CircuitType> circuitTypes) throws IOException, ClassNotFoundException
-  {
-    ObjectInputStream in = new ObjectInputStream(new FileInputStream(target));
-    ClipboardEntry clipboardEntry = (ClipboardEntry)in.readObject();
-    clipboardEntry.wasDeserialized(circuitTypes);
-    in.close();
-    
-    return clipboardEntry;
+  public ClipboardEntry load(Collection<CircuitType> circuitTypes) throws IOException, ClassNotFoundException {
+    try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(target))) {
+      ClipboardEntry clipboardEntry = (ClipboardEntry) in.readObject();
+      clipboardEntry.wasDeserialized(circuitTypes);
+      return clipboardEntry;
+    }
   }
 }

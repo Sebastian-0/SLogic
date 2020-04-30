@@ -28,12 +28,8 @@ public class ModuleLoader
   
   public Module load() throws IOException, ClassNotFoundException
   {
-    ObjectInputStream in = new ObjectInputStream(new FileInputStream(target));
-    try {
-      return (Module)in.readObject();
-    }
-    finally {
-      in.close();
+    try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(target))) {
+      return (Module) in.readObject();
     }
   }
 }

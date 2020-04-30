@@ -20,7 +20,7 @@ import java.util.Map;
 import circuit.Circuit;
 import circuit.Component;
 
-public class GraphicalComponent extends GraphicalCircuitEntity
+public class GraphicalComponent extends GraphicalCircuitEntity // TODO This class should implement equals and hashcode (Connection uses them)!
 {
   private static final long serialVersionUID = 3908301983886298492L;
 

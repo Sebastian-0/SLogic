@@ -25,13 +25,9 @@ public class DatabaseSaver
   
   public void save(Database database) throws IOException
   {
-    ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target));
-    try {
+    try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(target))) {
       out.writeObject(database.getCircuit());
       out.writeObject(database.getGraphicalCircuit());
-    }
-    finally {
-      out.close();
     }
   }
 }
