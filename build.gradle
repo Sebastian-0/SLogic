@@ -1,0 +1,71 @@
+plugins {
+    id 'net.researchgate.release' version '2.6.0'
+    id 'java'
+    id 'idea'
+}
+
+group 'io.github.sebastian-0'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.Sebastian-0:Utilities:1.0.1'
+    implementation 'com.github.Sebastian-0:SNet:1.0.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+task copyLibraries( type: Copy ) {
+    into "$buildDir/libs/lib"
+    from configurations.runtimeClasspath
+}
+
+task copyTextures( type: Copy ) {
+    into "$buildDir/libs/textures"
+    from "$projectDir/textures"
+    include "**/*.png"
+}
+
+task copyCircuits( type: Copy ) {
+    into "$buildDir/libs/circuits"
+    from "$projectDir/circuits"
+    include "**/*.cir"
+}
+
+task copyModules( type: Copy ) {
+    into "$buildDir/libs/modules"
+    from "$projectDir/modules"
+    include "**/*.mod"
+}
+
+task copyLanguages( type: Copy ) {
+    into "$buildDir/libs/languages"
+    from "$projectDir/languages"
+    include "**/*.table"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class':'gui.LogicSim',
+                'Class-Path': configurations.runtimeClasspath.files.collect { "lib/$it.name" }.join(' ')
+    }
+    dependsOn copyLibraries, copyTextures, copyCircuits, copyModules, copyLanguages
+}
+
+task packageDistibution(type: Zip) {
+    archiveFileName = "${project.name}-${project.version}.zip"
+    destinationDirectory = file("$buildDir")
+
+    from "$buildDir/libs"
+}
+
+build {
+    dependsOn packageDistibution
+}
