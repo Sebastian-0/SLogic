@@ -1,6 +1,7 @@
 import com.github.spotbugs.SpotBugsTask
 
 plugins {
+    id "com.github.ben-manes.versions" version "0.28.0"
     id 'net.researchgate.release' version '2.6.0'
     id 'java'
     id 'idea'
