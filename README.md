@@ -1,3 +1,6 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Sebastian-0/SLogic.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Sebastian-0/SLogic/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/Sebastian-0/SLogic.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Sebastian-0/SLogic/context:java)
+
 # SLogic
 This program was made to make it easy to construct digital circuits of varying complexity. When small circuits are constructed you can simply place all the components you need and link them together, and when you build advanced systems you can easily construct it part-by-part as module blocks and them connect them all together. SLogic was built with an emphasis on multi-user support, so every time the program is launched it automatically hosts a server which allows other users to connect and contribute to the circuit. It is possible to lock the server using a password and only allow others to view the circuit when they don't know the password.
 
