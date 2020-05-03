@@ -1,11 +1,9 @@
-import com.github.spotbugs.SpotBugsTask
-
 plugins {
     id "com.github.ben-manes.versions" version "0.28.0"
-    id 'net.researchgate.release' version '2.6.0'
+    id 'net.researchgate.release' version '2.8.1'
     id 'java'
     id 'idea'
-    id 'com.github.spotbugs' version '2.0.0'
+    id 'com.github.spotbugs' version '4.0.8'
 }
 
 group 'io.github.sebastian-0'
@@ -24,6 +22,20 @@ dependencies {
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+}
+
+spotbugs {
+    ignoreFailures = true
+}
+
+spotbugsMain {
+    reports {
+        html {
+            enabled = true
+            destination = file("$buildDir/reports/spotbugs/main.html")
+            stylesheet = 'fancy-hist.xsl'
+        }
+    }
 }
 
 task copyLibraries( type: Copy ) {
@@ -72,16 +84,4 @@ task packageDistibution(type: Zip) {
 
 build {
     dependsOn packageDistibution
-}
-
-spotbugs {
-    ignoreFailures = true
-    showProgress = true
-}
-
-tasks.withType(SpotBugsTask) {
-    reports {
-        xml.enabled = false
-        html.enabled = true
-    }
 }
