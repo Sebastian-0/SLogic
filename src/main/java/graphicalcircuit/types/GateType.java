@@ -76,7 +76,7 @@ public abstract class GateType extends AbstractCircuitType
         offset /= 2;
     }
     
-    for (; nextSlot < numSlots; nextSlot += 2)
+    for (; nextSlot+1 < numSlots; nextSlot += 2)
     {
       inPos[nextSlot] = new Point(-gateWidth/2, -offset * Grid.GRID_WIDTH);
       inPos[nextSlot+1] = new Point(-gateWidth/2, offset * Grid.GRID_WIDTH);

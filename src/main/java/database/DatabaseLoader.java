@@ -32,7 +32,7 @@ public class DatabaseLoader
   
   public Database load(Collection<CircuitType> circuitTypes) throws IOException, ClassNotFoundException
   {
-    try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(target))) {
+    try (FileInputStream fis = new FileInputStream(target); ObjectInputStream in = new ObjectInputStream(fis)) {
       Circuit circuit = (Circuit)in.readObject();
       GraphicalCircuit graphicalCircuit = (GraphicalCircuit)in.readObject();
       graphicalCircuit.wasDeserialized(circuit, circuitTypes);

@@ -103,7 +103,7 @@ public class CreateWireHook extends ExtendedHook
   private List<Point> buildNodes(String[] data, int startIndex)
   {
     List<Point> nodes = new ArrayList<Point>();
-    for (int i = startIndex; i < data.length; i += 2)
+    for (int i = startIndex; i+1 < data.length; i += 2)
     {
       int x = integer(data[i]);
       int y = integer(data[i+1]);

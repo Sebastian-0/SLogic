@@ -27,7 +27,7 @@ public class ClipboardEntryLoader
   }
   
   public ClipboardEntry load(Collection<CircuitType> circuitTypes) throws IOException, ClassNotFoundException {
-    try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(target))) {
+    try (FileInputStream fis = new FileInputStream(target); ObjectInputStream in = new ObjectInputStream(fis)) {
       ClipboardEntry clipboardEntry = (ClipboardEntry) in.readObject();
       clipboardEntry.wasDeserialized(circuitTypes);
       return clipboardEntry;

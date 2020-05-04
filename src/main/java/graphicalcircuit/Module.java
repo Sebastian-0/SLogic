@@ -84,7 +84,7 @@ public class Module implements Serializable
         offset /= 2;
     }
     
-    for (; nextSlot < numPins; nextSlot += 2)
+    for (; nextSlot+1 < numPins; nextSlot += 2)
     {
       pinPositions[nextSlot] = new Point(xPosition, -offset * Grid.GRID_WIDTH);
       pinPositions[nextSlot+1] = new Point(xPosition, offset * Grid.GRID_WIDTH);
